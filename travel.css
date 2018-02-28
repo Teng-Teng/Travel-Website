@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.nav-bar {
+	height: 40px;
+	line-height: 40px;
+	background-color: #000;
+	overflow: hidden;
+}
+.nav-bar li {
+	float: left;
+	margin-left: 130px;
+	list-style: none;
+}
+.nav-bar a {
+	text-decoration: none;
+	color: #fff;
+}
+.nav-bar a:hover {
+	color: pink;
+}
+.image img {
+	display: block;
+	margin: 0 auto;
+	width: 1280px;
+}
+.product li {
+	float: left;
+	list-style: none;
+	margin: 0 11px;
+}
+.product li:hover {
+	box-shadow: 10px 10px 5px #888888;
+}
+.wrapper {
+	overflow: hidden;
+	height: 250px;
+	margin: 0 auto;
+}
+.product {
+	margin: 17px auto;
+}
+h2 {
+	text-align: center;
+	color: #616161;
+	margin: 10px auto;
+}
+.video {
+	margin: 14px auto;
+}
+iframe {
+	margin: 0px 4px;
+}
+.poem {
+	margin: 10px auto;
+	padding: 8px;
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 20px;
+}
+.bold {
+	font-weight: 700;
+}
+.footer ul {
+	float: left;
+	list-style: none;
+	margin-left: 157px;
+}
+.footer li {
+	color: #fff;
+	margin: 43px 0px;
+	font-size: 16px;
+}
+.footer a {
+	text-decoration:none;
+}
+.footer {
+	overflow: hidden;
+	background-color: #000;
+}
+.footer li:hover {
+	color: pink;
+}
