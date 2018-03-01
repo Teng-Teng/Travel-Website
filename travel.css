@@ -2,22 +2,20 @@
 	margin: 0;
 	padding: 0;
 }
-.nav-bar {
+.flex-container {
 	height: 40px;
 	line-height: 40px;
 	background-color: #000;
-	overflow: hidden;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
 }
-.nav-bar li {
-	float: left;
-	margin-left: 130px;
-	list-style: none;
-}
-.nav-bar a {
+.flex-container a {
 	text-decoration: none;
 	color: #fff;
 }
-.nav-bar a:hover {
+.flex-container a:hover {
 	color: pink;
 }
 .image img {
@@ -25,21 +23,15 @@
 	margin: 0 auto;
 	width: 1280px;
 }
-.product li {
-	float: left;
-	list-style: none;
-	margin: 0 11px;
+.flex-product {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    margin: 17px auto 30px;
 }
-.product li:hover {
+.flex-product a:hover {
 	box-shadow: 10px 10px 5px #888888;
-}
-.wrapper {
-	overflow: hidden;
-	height: 250px;
-	margin: 0 auto;
-}
-.product {
-	margin: 17px auto;
 }
 h2 {
 	text-align: center;
@@ -61,23 +53,24 @@ iframe {
 .bold {
 	font-weight: 700;
 }
-.footer ul {
-	float: left;
+.flex-footer ul {
 	list-style: none;
-	margin-left: 157px;
 }
-.footer li {
+.flex-footer li {
 	color: #fff;
 	margin: 43px 0px;
 	font-size: 16px;
 }
-.footer a {
+.flex-footer a {
 	text-decoration:none;
 }
-.footer {
-	overflow: hidden;
+.flex-footer {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
 	background-color: #000;
 }
-.footer li:hover {
+.flex-footer li:hover {
 	color: pink;
 }
